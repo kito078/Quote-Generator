@@ -1,0 +1,55 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+h3{
+    color: blueviolet;
+    font-size: 2rem;
+}
+
+.book-1 img{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.book-1{
+    margin: 0.5rem;
+}
+img{
+    width: 100%;
+}
+#info{
+    font-size: 1.2rem;
+}
+
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    object-fit: cover;
+}
+
+#btn{
+    color: #fff;
+    outline: none;
+    border: none;
+    background: blueviolet;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+
+}
+
+.header{
+    color: red ;
+    font-size: 1.3rem;
+}
+
+.put, .loading{
+    display: none;
+}
